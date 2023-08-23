@@ -9,31 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        LT4_LT3-ESC {
-            bindings = <&kp ESC>;
-            key-positions = <1 2>;
-            timeout-ms = <18>;
-            layers = <0>;
-        };
-
-        LT4_LT2-LTab {
-            bindings = <&kt LS(TAB)>;
-            key-positions = <1 3>;
-            layers = <0>;
-            timeout-ms = <18>;
-        };
-
-        L2_L0-Tab {
-            bindings = <&kp TAB>;
-            key-positions = <5 3>;
-            timeout-ms = <18>;
-            layers = <0>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
